@@ -1,0 +1,126 @@
+/* typing animation */
+@keyframes typing {
+  0% {
+    content: "De";
+  }
+  2.77% {
+    content: "Des";
+  }
+  5.55% {
+    content: "Desi";
+  }
+  8.32% {
+    content: "Desig";
+  }
+  11.09% {
+    content: "Design";
+  }
+  13.86% {
+    content: "Designe";
+  }
+  16.63% {
+    content: "Designer";
+  }
+  19.40% {
+    content: "Designer";
+  }
+  22.174% {
+    content: "Designer";
+  }
+  24.94% {
+    content: "Designer";
+  }
+  27.71% {
+    content: "Designer";
+  }
+  30.48% {
+    content: "Designer";
+  }
+  33.25% {
+    content: "Designe";
+  }
+  36.02% {
+    content: "Design";
+  }
+  38.79% {
+    content: "Desig";
+  }
+  41.56% {
+    content: "Desi";
+  }
+  44.33% {
+    content: "Des";
+  }
+  47.10% {
+    content: "De";
+  }
+  49.87% {
+    content: "Dev";
+  }
+  52.64% {
+    content: "Deve";
+  }
+  55.41% {
+    content: "Devel";
+  }
+  58.18% {
+    content: "Develo";
+  }
+  60.95% {
+    content: "Develope";
+  }
+  63.72% {
+    content: "Developer";
+  }
+  66.49% {
+    content: "Developer";
+  }
+  69.26% {
+    content: "Developer";
+  }
+  72.03% {
+    content: "Developer";
+  }
+  74.80% {
+    content: "Developer";
+  }
+  77.57% {
+    content: "Developer";
+  }
+  80.34% {
+    content: "Developer";
+  }
+  83.11% {
+    content: "Develope";
+  }
+  85.88% {
+    content: "Develop";
+  }
+  88.65% {
+    content: "Develo";
+  }
+  91.42% {
+    content: "Devel";
+  }
+  94.19% {
+    content: "Deve";
+  }
+  96.96% {
+    content: "Dev";
+  }
+  100% {
+    content: "De";
+  }
+}
+/* hover */
+@keyframes hover {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,69 @@
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+@media (min-width: 0) and (max-width: 992px) {
+  .navbar-collapse {
+    height: 100vh;
+  }
+  .navbar-collapse ul {
+    height: 88vh;
+    padding: 10px 0;
+    background-color: white;
+  }
+  .navbar-collapse ul li {
+    padding: 0;
+  }
+  nav .navbar-nav .nav-link {
+    color: #4e4e4e !important;
+    padding: 10px 20px !important;
+    font-size: 15px !important;
+  }
+  nav .navbar-nav .nav-link.active {
+    color: #0078ff !important;
+  }
+  .nav-item.dropdown {
+    display: none;
+  }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .header h1 {
+    font-size: 3rem;
+  }
+  .header p {
+    font-size: 1.5rem;
+  }
+  .modal-content img {
+    max-width: 100vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .header h1 {
+    font-size: 4.5rem;
+  }
+  .header p {
+    font-size: 2.5rem;
+  }
+  .modal-content img {
+    max-width: 100%;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+  .dropend:hover > .dropdown-menu {
+    display: block;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

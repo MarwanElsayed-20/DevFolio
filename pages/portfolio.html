@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="a Sixth assignment for a long way of assignments for a front-end diploma "
+    />
+    <meta
+      name="keywords"
+      content="assignment, assignments, front-end, diploma, bootstrap"
+    />
+    <!-- link css sheets -->
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <!-- other sheets -->
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/media.css" />
+    <link rel="stylesheet" href="../css/animation.css" />
+    <!-- link js sheets -->
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/af4caa15ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap -->
+    <script defer src="../js/bootstrap.bundle.min.js"></script>
+    <!-- page title -->
+    <title>Sixth assignment | front-end diploma</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      id="navbar-navigate"
+      class="navbar fixed-top navbar-expand-lg bg-black bg-opacity-75 nav-mobile sub-nav"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">DevFolio</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >HOME</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#blog">BLOG</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                data-bs-auto-close="outside"
+                aria-expanded="false"
+              >
+                Drop down
+                <i class="fa-solid fa-chevron-down"></i>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Drop Down 1</a></li>
+                <li class="dropend deep-drop-down">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Deep Drop Down
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <ul class="dropdown-menu submenu" data-bs-popper="static">
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 1</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 3</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 4</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">Deep Drop Down 5</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a class="dropdown-item" href="#">Drop Down 2</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 3</a></li>
+                <li><a class="dropdown-item" href="#">Drop Down 4</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- header -->
+    <div class="portfolio-details-header">
+      <h1>PORTFOLIO DETAILS</h1>
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">
+          Portfolio Details
+        </li>
+      </ol>
+    </div>
+    <!-- body -->
+    <div class="portfolio-details-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="../img/portfolio-details-1.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../img/portfolio-details-2.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="../img/portfolio-details-3.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="project-info">
+              <h3>Project information</h3>
+              <p><strong>Category:</strong> <span>Web design</span></p>
+              <p><strong>Client:</strong> <span>ASU Company</span></p>
+              <p><strong>Project date:</strong> <span>01 March, 2020</span></p>
+              <p>
+                <strong>Project URL:</strong>
+                <a href="portfolio.html">www.example.com</a>
+              </p>
+            </div>
+            <div class="project-details">
+              <h3>This is an example of portfolio detail</h3>
+              <p>
+                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos
+                itaque inventore commodi labore quia quia. Exercitationem
+                repudiandae officiis neque suscipit non officia eaque itaque
+                enim. Voluptatem officia accusantium nesciunt est omnis tempora
+                consectetur dignissimos. Sequi nulla at esse enim cum deserunt
+                eius.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>© Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
+            <p>
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
